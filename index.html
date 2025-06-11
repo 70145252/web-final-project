@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>digiclock | Get into Time</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="assets/logo.png" alt="digiclock logo" class="logo-img">
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#follow">Follow Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="home">
+            <h1>Welcome to digiclock</h1>
+            <p>Get into Time</p>
+            <div class="local-clock-display">
+                <h2>digiclock</h2>
+                <div id="clock"></div>
+                <div id="date"></div>
+            </div>
+        </div>
+        <div class="world-clocks">
+            <h1>World Clocks</h1>
+            <div class="clock-item">
+                <h3>New York:</h3> <span id="new-york-clock"></span>
+            </div>
+            <div class="clock-item">
+                <h3>London:</h3> <span id="london-clock"></span>
+            </div>
+            <div class="clock-item">
+                <h3>Tokyo:</h3> <span id="tokyo-clock"></span>
+            </div>
+            <div class="clock-item">
+                <h3>Sydney:</h3> <span id="sydney-clock"></span>
+            </div>
+        </div>
+        <div id="features">
+            <h2>Features</h2>
+            <ul class="feature-list">
+                <li>Real-time clock display</li>
+                <li>Customizable themes</li>
+                <li>World clock support</li>
+            </ul>
+            <h2>Technologies Used</h2>
+            <ul class="feature-list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Responsive Design</li>
+            </ul>
+            <h2>Get Started</h2>
+            <p>To use digiclock, simply open the application in your web browser. No installation required!</p>
+            <h2>Contribute</h2>
+            <p>We welcome contributions! If you have suggestions or improvements, please reach out to us.</p>
+        </div>
+        <div id="about">
+            <h2>About Us</h2>
+            <p>digiclock is a simple yet powerful digital clock application designed to help you keep track of time effortlessly.</p>
+            <p>Our mission is to provide a user-friendly interface with essential features for time management.</p>
+        </div>
+        <div id="follow">
+            <h2>Follow Us</h2>
+            <p>Stay updated with the latest news and updates by following us on social media.</p>
+            <ul class="social-media">
+                <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://youtube.com" target="_blank">Youtube</a></li>
+                <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+        <div id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or feedback, feel free to reach out to us via email.</p>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Your message goes here" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 digiclock. All rights reserved.</p>
+    </footer>
+    <button class="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})"><h1>🔝</h1></button>
+    <script src="script.js"></script>
+   </body>
+</html>
