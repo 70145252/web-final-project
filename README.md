@@ -28,12 +28,11 @@ To use `digiclock`, simply open the `index.html` file in your web browser. No co
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YourUsername/digiclock.git](https://github.com/70145252/web-final-project)
+    git clone [https://github.com/70145252/web-final-project.git](https://70145252/web-final-project.git)
     ```
-    (Replace `YourUsername` with your actual GitHub username)
 2.  **Navigate to the project directory:**
     ```bash
-    cd digiclock
+    cd web-final-project
     ```
 3.  **Open `index.html` in your browser:**
     You can simply double-click the `index.html` file, or open it via your browser's file menu.
